@@ -5,13 +5,14 @@ npm-debug.log
 .DS_Store
 
 
-.build/*
-.next
+.build/
+.next/
 .vscode/
 node_modules/
 .coverage
 .env
 .next
+static/
 
 book/8-exp
 tutorials/working

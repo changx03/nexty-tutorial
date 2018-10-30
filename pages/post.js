@@ -13,6 +13,7 @@ import Layout from '../components/MyLayout';
 
 // export default withRouter(Post);
 
+// dynamic page cannot export!
 const Post = props => (
   <Layout>
     <h1>{props.show.name}</h1>

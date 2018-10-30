@@ -23,7 +23,8 @@ import Layout from '../components/MyLayout';
 // CSS rules have no effect on elements inside of a child component.
 const PostLink = ({ id, name }) => (
   <li>
-    <Link as={`/p/${id}`} href={`/post?id=${id}`}>
+    {/* <Link as={`/p/${id}`} href={`/post?id=${id}`}> */}
+    <Link href={`/post?id=${id}`}>
       <a>{name}</a>
     </Link>
     <style jsx>{`
